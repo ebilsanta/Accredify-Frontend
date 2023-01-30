@@ -19,12 +19,8 @@ Data is fetched once during build and stored in **Pinia** to provide access to a
    ```
 2. Install packages
    ```sh
-   npm install
+   npm i --force
    ```  
-   or
-   ```sh
-   yarn add
-   ``` 
 3. Create build
     ```sh
    npx nuxi generate
@@ -33,9 +29,5 @@ Data is fetched once during build and stored in **Pinia** to provide access to a
    ```sh
    npm run preview
    ```  
-   or
-   ```sh
-   yarn preview
-   ``` 
 5. View the project at http://localhost:3000
    
