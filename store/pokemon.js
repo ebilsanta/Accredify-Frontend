@@ -9,7 +9,7 @@ export const usePokemonsStore = defineStore('pokemon-store', {
   actions: {
     async getPokemonData() {
       const pokemonApiUrl = 'https://pokeapi.co/api/v2/pokemon/'
-      for (let i = 1; i < 12; i++ ) {
+      for (let i = 1; i < 1009; i++ ) {
         try {
           fetch(pokemonApiUrl + `${i}/`)
           .then(response => response.json())
@@ -35,7 +35,6 @@ export const usePokemonsStore = defineStore('pokemon-store', {
               abilities,
               moves
             }
-            console.log(name)
             this.pokemonData[name] = pokemon
             this.pokemonNames.push(name)
           }) 
