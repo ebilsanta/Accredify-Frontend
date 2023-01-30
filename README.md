@@ -15,7 +15,7 @@ Data is fetched once during build and stored in **Pinia** to provide access to a
 ## Instructions to run locally
 1. Clone the repo
    ```sh
-   git clone (https://github.com/ebilsanta/Accredify-Frontend.git)
+   git clone https://github.com/ebilsanta/Accredify-Frontend.git
    ```
 2. Install packages
    ```sh
