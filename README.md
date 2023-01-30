@@ -13,29 +13,25 @@ The project is built on **Vue** using **Nuxt** for routing and static site gener
 Data is fetched once during build and stored in **Pinia** to provide access to all components easily. 
 
 ## Instructions to run locally
-1. Clone the repo
+1. Clone the repo 
    ```sh
    git clone https://github.com/ebilsanta/Accredify-Frontend.git
    ```
-2. Install packages
+2. Change directory
    ```sh
-   npm install
+   cd Accredify-Frontend
+   ```
+3. Install packages
+   ```sh
+   npm i --force
    ```  
-   or
-   ```sh
-   yarn add
-   ``` 
-3. Create build
+4. Create build
     ```sh
    npx nuxi generate
    ``` 
-4. Preview build
+5. Preview build
    ```sh
    npm run preview
    ```  
-   or
-   ```sh
-   yarn preview
-   ``` 
 5. View the project at http://localhost:3000
    
