@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
   ],
-  plugins:['@/plugins/antd', { ssr: false, src:'@/plugins/store'}],
+  plugins:['@/plugins/antd', { ssr: true, src:'@/plugins/store'}],
   target: 'static',
-  ssr: false
+  ssr: true
 })
