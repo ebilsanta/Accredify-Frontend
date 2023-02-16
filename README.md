@@ -21,7 +21,7 @@ Data is fetched once during build and stored in **Pinia** to provide access to a
    ```
 2. Change directory
    ```sh
-   cd Accredify-Frontend
+   cd pokemon-wiki
    ```
 3. Install packages
    ```sh
