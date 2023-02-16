@@ -1,4 +1,4 @@
-# Accredify-Frontend
+# Pokemon Wiki
  
 ## Introduction to Project
 Hi, this is a mini Pokemon Wiki app that uses data from [PokeAPI](https://pokeapi.co/). 
